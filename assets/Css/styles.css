@@ -1,4 +1,3 @@
-/* styles.css */
 body, html {
     margin: 0;
     padding: 0;
@@ -11,11 +10,13 @@ header {
     background: #e7c6c6;
     color: #fff;
     z-index: 1000;
+    padding: 10px 0; 
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-around;
 }
@@ -31,24 +32,27 @@ nav ul li {
 
 .nav-link.active {
     border-bottom: 2px solid #fff;
+    font-weight: bold;
+    color: #c747b2;
 }
 
 section {
-    padding: 100px 20px;
-    margin-top: 60px;
+    padding: 60px 20px;
+    margin: 100px 0 20px; 
+    border: 1px solid #ddd;
+    background: #f9f9f9;
 }
 
 section.active {
     border: 2px solid #e7c6c6;
 }
 
-.btn{
+.btn {
     background-color: #e7c6c6;
     width: 50px !important;
     height: 50px !important;
 }
 
-.bg-global{
+.bg-global {
     background-color: #e7c6c6;
-
 }
